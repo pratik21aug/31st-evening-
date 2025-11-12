@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
 (
-		features = {"C:\\Users\\sai\\eclipse-workspace\\Coverfox_Demo\\src\\test\\resources\\coverFoxFeatures\\coverfox.feature"},
+		features = {"D:\\31st-evening-\\src\\test\\resources\\coverFoxFeatures\\coverfox.feature"},
 		glue = {"stepDefinitions","hooks"}, //tags = ""
 		plugin = {"pretty", "html:target/cucumber-reports/reports.html"},
 		publish = true,
