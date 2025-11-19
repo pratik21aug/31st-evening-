@@ -1,0 +1,18 @@
+# Ignore build and output directories
+target/
+test-output/
+
+# Ignore class files
+*.class
+
+# Ignore Eclipse/IDE files
+.classpath
+.project
+.settings/
+
+# Ignore reports
+*.html
+*.css
+*.js
+*.xml
+*.json
